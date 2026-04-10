@@ -1,0 +1,41 @@
+{
+  "name": "astro-sauce",
+  "version": "0.0.1",
+  "description": "CSS-in-JS runtime for Astro - write CSS inside JavaScript without SSR",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "publish": "tsc"
+  },
+  "keywords": [
+    "astro",
+    "css-in-js",
+    "styled-components",
+    "css",
+    "runtime",
+    "astro-sauce",
+    "astro-styles"
+  ],
+  "author": "Dev6",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnakinSkyWalker-Dev/astro-sauce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnakinSkyWalker-Dev/astro-sauce/issues"
+  },
+  "homepage": "https://github.com/AnakinSkyWalker-Dev/astro-sauce#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
