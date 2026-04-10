@@ -1,6 +1,6 @@
 {
   "name": "astro-sauce",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "CSS-in-JS runtime for Astro - write CSS inside JavaScript without SSR",
   "type": "module",
   "main": "./dist/index.js",
